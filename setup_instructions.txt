@@ -1,0 +1,37 @@
+instructions for django project setup
+
+1. create the django project
+
+2. create the apps directory
+    
+    cd main
+
+    mkdir apps
+  
+    cd apps
+
+3. create the dunder file
+
+    touch __init__.py
+
+4. create the django app
+
+    python ../manage.py startapp first_app
+
+5. add the app to settings.py
+
+   add to INSTALLED_APPS as apps.<whatever app is called>
+
+6. create the route app
+
+   # mod the primary urls.py file to include the application
+
+   # mod the urls.py file in the actual application (create it first) and label view.<method you want to fire on that path>
+
+7. create the view methods
+
+    create the views you want to fire for the app routes
+
+8. build templates
+
+
